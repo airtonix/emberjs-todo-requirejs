@@ -2,6 +2,7 @@
 
 My approach to learning EmberJs using: RequireJs, CoffeeScript, Jade, and a NodExt development server.
 
+*abandoned due to bad documentation and inflexible modularity*
 
 ## What
 
@@ -36,3 +37,14 @@ $ npm install
 $ npm setup
 $ npm start
 ```
+
+
+## Conclusion ?
+
+Regarding Ember
+
+- difficult to get modularised with RequireJs.
+- getting started guide probably requires a very specific version.
+- Feels like Backbone or Knockout. 
+
+In short: A pain in the ass to scale.
