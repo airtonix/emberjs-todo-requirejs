@@ -1,5 +1,6 @@
 define [
 	'ember'
+	'ember-data'
 	], (Ember) ->
 
 		Ember.Application.create
@@ -10,4 +11,3 @@ define [
 
 			ready: () ->
 				@set 'Router.enableLogging', true
-				console.log "Ready", @VERSION

@@ -1,10 +1,17 @@
 section#todoapp
 	header#header
 		h1 todos
-		input#new-todo(type="text",
-					   placeholder="What neds to be done?")
+		{{ input type="text" id="new-todo" placeholder="What needs to be done?" value=newTitle action="createTodo" }}
 
 	section#main(data-todos-list)
+		ul#todo-list
+			{{#each}}
+			li("{{bind-attr class='isCompleted:completed'}}")
+				input.toggle(type="checkbox")
+				label {{ title }}
+				button.destroy
+			{{/each}}
+
 
 	footer#footer
 		span#todo-count

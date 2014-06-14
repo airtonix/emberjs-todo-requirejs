@@ -1,7 +1,7 @@
 define [
 	'lodash'
 	'ember'
-	'ehbs!app'
+	'ehbs!todos'
 ], (_,Ember) ->
 
 	console.log "#{_.keys(Ember.TEMPLATES).length} templates loaded"

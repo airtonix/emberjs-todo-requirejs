@@ -17,7 +17,8 @@
 
   "main": "coffee ./src/server",
   "scripts": {
-    "start": "coffee ./src/server"
+    "start": "coffee ./src/server",
+    "bower": "bower install"
   },
   "engines": {
     "node": "0.10.x",

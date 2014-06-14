@@ -1,10 +1,12 @@
 define [
 	'lodash'
+	'ember'
 	'application'
-	'./store'
 	'./templates'
+	'./store'
+	'./routes'
 	'./models/todo'
-	], (_, App) ->
+	'./controllers/todo_controller'
+	], (_, Ember, App) ->
 
-		App.Router.map () ->
-			@resource 'app', path: '/'
+		console.log App.VERSION
