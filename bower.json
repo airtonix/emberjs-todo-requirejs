@@ -1,0 +1,33 @@
+{
+  "name": "repo_name",
+  "version": "0.0.1",
+  "homepage": "git://github.com/something/someone.git",
+  "authors": [
+    "You <YourEmail>"
+  ],
+  "description": "todo-app",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "=2.1.10",
+    "almond": "=0.2.9",
+    "lodash": "=2.4.1",
+    "modernizr": "=2.7.1",
+    "momentjs": "=2.5.1",
+    "bourbon": "git://github.com/thoughtbot/bourbon.git#=3.1.8",
+    "ember": "~1.5.1",
+    "ember-data": "~0.0.14",
+    "requirejs-ember-handlebars": "*",
+    "requirejs-text": "~2.0.12"
+  },
+  "resolutions": {
+    "ember": "~1.5.1"
+  }
+}

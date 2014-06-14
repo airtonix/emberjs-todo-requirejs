@@ -15,6 +15,7 @@ coverage
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
+.tmp
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
@@ -23,3 +24,4 @@ build/Release
 # Deployed apps should consider commenting this line out:
 # see https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
 node_modules
+bower_components
