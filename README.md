@@ -26,3 +26,13 @@ The main goal here is to :
 - [ ] Move fixtures into NodExt as Restful endpoints
 - [ ] Convert styles to SCSS
 - [ ] Make it easily deployable to Heroku
+
+## Getting Started
+
+- This assumes you have NodeJs installed.
+
+```bash
+$ npm install
+$ npm setup
+$ npm start
+```
